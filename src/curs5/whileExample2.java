@@ -13,7 +13,7 @@ public class whileExample2 {
 	
 	public static void main(String[] args) {
 
-		System.out.println("Please enter a number :");
+//		System.out.println("Please enter a number :");
 		Scanner scan  =  new Scanner(System.in);
 			
 		/*for(int nr = scan.nextInt(); nr != 0; nr = scan.nextInt()) {
