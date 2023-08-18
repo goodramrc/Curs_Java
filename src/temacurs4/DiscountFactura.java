@@ -15,11 +15,12 @@ public class DiscountFactura {
 		
 		
 		
-		discount = factura>100? factura*10/ factura: factura<100?factura*5/ factura:0 ;
+		discount = factura>=100? factura*10/ factura: factura<100?factura*5/ factura:0 ;
 		facturaFinala = factura - discount;
 		
 		System.out.println("Discountul este:" + discount);
 		System.out.println("Valoarea facturii finale este: " + facturaFinala);
+		scanner.close();
 	}
 
 }
